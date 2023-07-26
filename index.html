@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jatin Kumar - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Jatin Kumar
+          <div class="contact_info">
+            <img src="https://static-00.iconduck.com/assets.00/envelope-circle-icon-2048x2048-81v3jlcq.png"/>
+          jattzjangra@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="https://www.freeiconspng.com/uploads/phone-png-9.png"/>
+          +91 99876543210
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Skills">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://png.pngtree.com/png-vector/20200425/ourmid/pngtree-character-design-in-a-single-person-png-image_2194495.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Jatin Kumar!
+          </h1>
+          <p>
+            I am a college student and a freelancer. 
+            <br/>
+            I love playing chess and watching anime.
+            <br/>
+            This is my portfolio website.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png"/>
+          <h6>HTML</h6>
+          <p>1 year experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://www.techdevl.com/staff/css/img/imglogo.png"/>
+            <h6>CSS</h6>
+            <p>1 year experience</p>
+        </div> 
+
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"/>
+          <h6>JavaScript</h6>
+          <p>1 year experience</p>
+        </div>  
+
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"/>
+            <h6>C++</h6>
+            <p>2 years experience</p>
+        </div> 
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"/>
+            <h6>Python</h6>
+            <p>1 year experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png"/>
+          <h6>Excel</h6>
+          <p>6 months experience</p>
+      </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Hand Gestures for Presentation</h3>
+            <ul>
+              <li>Developed a software that could recognize hand gestures and simultaneously reflect them on the system.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Anime Website</h3>
+            <ul>
+              <li>Developed an anime website for watching anime and reading manga.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Personalized Academic Calendar</h3>
+            <ul>
+              <li>Developed a website where academic professionals could keep track of all the upcoming and ongoing events. and track their progress.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jatin is a very quick learner and quickly grasps key concepts of Web development. 
+          He's got a great attitude & is an excellent team player. 
+          He has a curious mind and asks the right questions. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jatin has been an awesome experience. 
+          He is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need his expertise I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jatin during the initial phase of our venture which needed Web development. 
+          He is a committed resource who has in depth knowledge about the domain. 
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for recommendation!<!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
